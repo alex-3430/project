@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: burlywood;
+    line-height: 70px;
+    padding-left: 30px;
+    
+}
+a, a:hover{
+    text-decoration: none!important;
+}
+.logout{
+    
+    float: right;
+    padding-right: 30px;
+}
+ul{
+    background-color:darkgreen;
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    padding-top: 5%;
+}
+ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+ul li a{
+    color: whitesmoke;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: cadetblue;
+    text-decoration: none;
+}
+.content{
+    
+    margin: 5% 5% 5% 20%;
+}
+table tr th{
+    
+    padding: 20px;
+    font-size: 15px;
+}
+table tr td{
+    
+    padding: 20px;
+}
+.profile{
+    margin: 5% 5% 5% 20%;
+    background-color: cadetblue;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+label{
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.addstudent{
+    background-color: aqua;
+    width:500px;
+    padding:20px;
+}
+.img{
+    position:relative;
+    margin: 0 0 0 47% ;
+    bottom: 30px;
+
+}
+.image{
+    position: relative;
+    margin: 0 37% 0 0 ;
+}
+/* .courses_img{
+    position:relative;
+    margin: 0 0 0 5px ;
+    bottom: 30px;
+} */
